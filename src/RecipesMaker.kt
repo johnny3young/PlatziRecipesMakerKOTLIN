@@ -45,7 +45,7 @@ fun main (){
                         else -> println("\n Option selected don´t exists")
                     }
 
-                    println("\nDo you Wish other ingredient? \n1- Yes\n2-No\nOption: ")
+                    println("\nDo you wish other ingredient? \n1- Yes\n2-No\nOption: ")
                     if (readLine()!!.toInt()==2){
                         recipe += "**********************\n\n"
                         returned = false
